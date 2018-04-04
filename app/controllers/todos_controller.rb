@@ -13,7 +13,6 @@ class TodosController < ApplicationController
     @todo = Todo.new(todo_params)
     @todo.save
 
-    redirect_to todos_path
   end
 
   def update
